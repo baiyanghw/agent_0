@@ -1,0 +1,51 @@
+2026-03-23 16:06:27,684 - agent - INFO - middleware.py : 30 - [log_before_model]即将调用模型，带有1条消息
+2026-03-23 16:06:27,684 - agent - DEBUG - middleware.py : 31 - [log_before_model] HumanMessage 介绍你自己
+2026-03-23 16:07:12,225 - agent - INFO - middleware.py : 30 - [log_before_model]即将调用模型，带有1条消息
+2026-03-23 16:07:12,227 - agent - DEBUG - middleware.py : 31 - [log_before_model] HumanMessage 我在当前城市如何保养机器人
+2026-03-23 16:07:16,548 - agent - INFO - middleware.py : 16 - [tool monter]执行工具：get_user_location
+2026-03-23 16:07:16,549 - agent - INFO - middleware.py : 17 - [tool monter]执行工具：{}
+2026-03-23 16:07:16,552 - agent - INFO - middleware.py : 20 - [tool monter]执行工具：get_user_location调用成功
+2026-03-23 16:07:16,593 - agent - INFO - middleware.py : 30 - [log_before_model]即将调用模型，带有3条消息
+2026-03-23 16:07:16,594 - agent - DEBUG - middleware.py : 31 - [log_before_model] ToolMessage 广州
+2026-03-23 16:07:20,453 - agent - INFO - middleware.py : 16 - [tool monter]执行工具：get_weather
+2026-03-23 16:07:20,455 - agent - INFO - middleware.py : 17 - [tool monter]执行工具：{'city': '广州'}
+2026-03-23 16:07:20,460 - agent - INFO - middleware.py : 20 - [tool monter]执行工具：get_weather调用成功
+2026-03-23 16:07:21,046 - agent - INFO - middleware.py : 30 - [log_before_model]即将调用模型，带有5条消息
+2026-03-23 16:07:21,046 - agent - DEBUG - middleware.py : 31 - [log_before_model] ToolMessage 城市：广州,天气为晴天，气温26摄氏度，空气湿度50%，南风一级，最近六小时降雨概率极低
+2026-03-23 16:07:26,337 - agent - INFO - middleware.py : 16 - [tool monter]执行工具：rag_summarize
+2026-03-23 16:07:26,338 - agent - INFO - middleware.py : 17 - [tool monter]执行工具：{'query': '潮湿地区扫地机器人保养方法'}
+2026-03-23 16:07:30,769 - agent - INFO - middleware.py : 20 - [tool monter]执行工具：rag_summarize调用成功
+2026-03-23 16:07:31,956 - agent - INFO - middleware.py : 30 - [log_before_model]即将调用模型，带有7条消息
+2026-03-23 16:07:31,957 - agent - DEBUG - middleware.py : 31 - [log_before_model] ToolMessage 在潮湿地区使用扫地机器人时，应定期清理尘盒和滤网，保持机器内部干燥；避免长时间放置在潮湿地面，使用后及时充电并存放于通风处；建议每周检查边刷和滚刷是否受潮发霉，必要时进行清洁或更换。
+2026-03-23 16:08:00,643 - agent - INFO - middleware.py : 30 - [log_before_model]即将调用模型，带有1条消息
+2026-03-23 16:08:00,644 - agent - DEBUG - middleware.py : 31 - [log_before_model] HumanMessage 生成我的使用报告
+2026-03-23 16:08:06,451 - agent - INFO - middleware.py : 16 - [tool monter]执行工具：get_user_id
+2026-03-23 16:08:06,452 - agent - INFO - middleware.py : 17 - [tool monter]执行工具：{}
+2026-03-23 16:08:06,453 - agent - INFO - middleware.py : 20 - [tool monter]执行工具：get_user_id调用成功
+2026-03-23 16:08:06,520 - agent - INFO - middleware.py : 30 - [log_before_model]即将调用模型，带有3条消息
+2026-03-23 16:08:06,521 - agent - DEBUG - middleware.py : 31 - [log_before_model] ToolMessage 1007
+2026-03-23 16:08:10,402 - agent - INFO - middleware.py : 16 - [tool monter]执行工具：get_current_month
+2026-03-23 16:08:10,403 - agent - INFO - middleware.py : 17 - [tool monter]执行工具：{}
+2026-03-23 16:08:10,405 - agent - INFO - middleware.py : 20 - [tool monter]执行工具：get_current_month调用成功
+2026-03-23 16:08:10,566 - agent - INFO - middleware.py : 30 - [log_before_model]即将调用模型，带有5条消息
+2026-03-23 16:08:10,567 - agent - DEBUG - middleware.py : 31 - [log_before_model] ToolMessage ["2025-05"]
+2026-03-23 16:08:14,671 - agent - INFO - middleware.py : 16 - [tool monter]执行工具：fill_context_for_report
+2026-03-23 16:08:14,672 - agent - INFO - middleware.py : 17 - [tool monter]执行工具：{}
+2026-03-23 16:08:14,673 - agent - INFO - middleware.py : 20 - [tool monter]执行工具：fill_context_for_report调用成功
+2026-03-23 16:08:15,025 - agent - INFO - middleware.py : 30 - [log_before_model]即将调用模型，带有7条消息
+2026-03-23 16:08:15,026 - agent - DEBUG - middleware.py : 31 - [log_before_model] ToolMessage fill_context_for_report已调用
+2026-03-23 16:08:21,222 - agent - INFO - middleware.py : 16 - [tool monter]执行工具：fetch_exteral_data
+2026-03-23 16:08:21,222 - agent - INFO - middleware.py : 17 - [tool monter]执行工具：{'user_id': '1007', 'month': '2025-05'}
+2026-03-23 16:08:21,226 - agent - INFO - middleware.py : 20 - [tool monter]执行工具：fetch_exteral_data调用成功
+2026-03-23 16:08:22,769 - agent - INFO - middleware.py : 30 - [log_before_model]即将调用模型，带有9条消息
+2026-03-23 16:08:22,770 - agent - DEBUG - middleware.py : 31 - [log_before_model] ToolMessage {"特征": "55㎡一居 | 独居 | 复合地板", "效率": "覆盖率:94%\\n日均清扫:39㎡\\n无漏扫区域", "耗材": "滤网寿命:剩余60天\\n尘盒清理:每5天", "对比": "清洁效率优于85%小户型用户"}
+2026-03-23 16:08:30,086 - agent - INFO - middleware.py : 16 - [tool monter]执行工具：rag_summarize
+2026-03-23 16:08:30,087 - agent - INFO - middleware.py : 17 - [tool monter]执行工具：{'query': '扫地机器人滤网更换周期和尘盒清理建议'}
+2026-03-23 16:08:34,972 - agent - INFO - middleware.py : 20 - [tool monter]执行工具：rag_summarize调用成功
+2026-03-23 16:08:35,885 - agent - INFO - middleware.py : 30 - [log_before_model]即将调用模型，带有11条消息
+2026-03-23 16:08:35,886 - agent - DEBUG - middleware.py : 31 - [log_before_model] ToolMessage 滤网建议每2-3个月更换一次，若使用频率高或环境灰尘较多，可适当缩短周期；尘盒每次使用后应清空，并定期用水冲洗晾干，避免残留灰尘影响吸力。
+2026-03-23 16:08:39,787 - agent - INFO - middleware.py : 16 - [tool monter]执行工具：rag_summarize
+2026-03-23 16:08:39,788 - agent - INFO - middleware.py : 17 - [tool monter]执行工具：{'query': '小户型扫地机器人使用频率建议'}
+2026-03-23 16:08:41,937 - agent - INFO - middleware.py : 20 - [tool monter]执行工具：rag_summarize调用成功
+2026-03-23 16:08:42,487 - agent - INFO - middleware.py : 30 - [log_before_model]即将调用模型，带有13条消息
+2026-03-23 16:08:42,488 - agent - DEBUG - middleware.py : 31 - [log_before_model] ToolMessage 小户型建议每周使用扫地机器人2-3次，若地面灰尘较多或有宠物，可适当增加至每日1次。

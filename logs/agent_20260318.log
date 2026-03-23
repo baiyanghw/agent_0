@@ -1,0 +1,73 @@
+2026-03-18 15:45:38,518 - agent - INFO - logger_handler.py : 54 - 信息日志
+2026-03-18 15:45:49,038 - agent - INFO - logger_handler.py : 54 - 信息日志
+2026-03-18 15:45:49,038 - agent - ERROR - logger_handler.py : 55 - 错误日志
+2026-03-18 15:45:49,038 - agent - WARNING - logger_handler.py : 56 - 警告日志
+2026-03-18 15:45:49,038 - agent - DEBUG - logger_handler.py : 57 - 调试日志
+2026-03-18 15:46:19,814 - agent - INFO - logger_handler.py : 54 - 信息日志
+2026-03-18 15:46:19,814 - agent - ERROR - logger_handler.py : 55 - 错误日志
+2026-03-18 15:46:19,815 - agent - WARNING - logger_handler.py : 56 - 警告日志
+2026-03-18 15:46:19,815 - agent - DEBUG - logger_handler.py : 57 - 调试日志
+2026-03-18 16:32:29,092 - agent - ERROR - prompt_loader.py : 33 - [loag_system_prompt]在yaml配置项中没有main_Prompt_path 配置项
+2026-03-18 16:33:53,522 - agent - ERROR - prompt_loader.py : 33 - [loag_system_prompt]在yaml配置项中没有main_Prompt_path 配置项
+2026-03-18 16:39:20,447 - agent - ERROR - prompt_loader.py : 33 - [loag_system_prompt]在yaml配置项中没有main_Prompt_path 配置项
+2026-03-18 16:39:41,519 - agent - ERROR - prompt_loader.py : 33 - [loag_system_prompt]在yaml配置项中没有main_Prompt_path 配置项
+2026-03-18 16:40:13,260 - agent - ERROR - prompt_loader.py : 33 - [loag_system_prompt]在yaml配置项中没有main_prompt_path 配置项
+2026-03-18 18:52:46,245 - agent - ERROR - file_handler.py : 30 - data不是文件夹
+2026-03-18 18:54:49,516 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/选购指南.txt内容已经存在
+2026-03-18 18:54:53,393 - agent - ERROR - vector_store.py : 81 - [加载数据库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫地机器人100问2.txt加载失败：'Logger' object has no attribute 'ingo'
+Traceback (most recent call last):
+  File "/Users/baiyanghw/PycharmProjects/Agent_project/rag/vector_store.py", line 79, in load_document
+    logger.ingo(f"[加载知识库]{path}内容加载成功")
+AttributeError: 'Logger' object has no attribute 'ingo'
+2026-03-18 18:55:05,415 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/选购指南.txt内容已经存在
+2026-03-18 18:55:05,416 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫地机器人100问2.txt内容已经存在
+2026-03-18 18:55:13,007 - agent - INFO - vector_store.py : 79 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/故障排除.txt内容加载成功
+2026-03-18 18:55:17,543 - agent - INFO - vector_store.py : 79 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫拖一体机器人100问.txt内容加载成功
+2026-03-18 18:55:22,395 - agent - INFO - vector_store.py : 79 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/维护保养.txt内容加载成功
+2026-03-18 18:55:22,396 - agent - ERROR - vector_store.py : 81 - [加载数据库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫地机器人100问.pdf加载失败：pdf_loader() missing 1 required positional argument: 'password'
+Traceback (most recent call last):
+  File "/Users/baiyanghw/PycharmProjects/Agent_project/rag/vector_store.py", line 66, in load_document
+    documents:List[Document]=get_file_documents(path)
+  File "/Users/baiyanghw/PycharmProjects/Agent_project/rag/vector_store.py", line 57, in get_file_documents
+    return pdf_loader(read_path)
+TypeError: pdf_loader() missing 1 required positional argument: 'password'
+2026-03-18 18:55:48,951 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/选购指南.txt内容已经存在
+2026-03-18 18:55:48,951 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫地机器人100问2.txt内容已经存在
+2026-03-18 18:55:48,951 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/故障排除.txt内容已经存在
+2026-03-18 18:55:48,951 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫拖一体机器人100问.txt内容已经存在
+2026-03-18 18:55:48,951 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/维护保养.txt内容已经存在
+2026-03-18 18:55:48,986 - agent - ERROR - vector_store.py : 81 - [加载数据库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫地机器人100问.pdf加载失败：Not an encrypted file
+Traceback (most recent call last):
+  File "/Users/baiyanghw/PycharmProjects/Agent_project/rag/vector_store.py", line 66, in load_document
+    documents:List[Document]=get_file_documents(path)
+  File "/Users/baiyanghw/PycharmProjects/Agent_project/rag/vector_store.py", line 57, in get_file_documents
+    return pdf_loader(read_path,"")
+  File "/Users/baiyanghw/PycharmProjects/Agent_project/utils/file_handler.py", line 38, in pdf_loader
+    return PyPDFLoader(filepath,password).load()
+  File "/Users/baiyanghw/miniconda3/envs/agent_p/lib/python3.10/site-packages/langchain_core/document_loaders/base.py", line 43, in load
+    return list(self.lazy_load())
+  File "/Users/baiyanghw/miniconda3/envs/agent_p/lib/python3.10/site-packages/langchain_community/document_loaders/pdf.py", line 305, in lazy_load
+    yield from self.parser.lazy_parse(blob)
+  File "/Users/baiyanghw/miniconda3/envs/agent_p/lib/python3.10/site-packages/langchain_community/document_loaders/parsers/pdf.py", line 384, in lazy_parse
+    pdf_reader = pypdf.PdfReader(pdf_file_obj, password=self.password)
+  File "/Users/baiyanghw/miniconda3/envs/agent_p/lib/python3.10/site-packages/pypdf/_reader.py", line 157, in __init__
+    raise PdfReadError("Not an encrypted file")
+pypdf.errors.PdfReadError: Not an encrypted file
+2026-03-18 18:57:31,360 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/选购指南.txt内容已经存在
+2026-03-18 18:57:31,360 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫地机器人100问2.txt内容已经存在
+2026-03-18 18:57:31,361 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/故障排除.txt内容已经存在
+2026-03-18 18:57:31,361 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫拖一体机器人100问.txt内容已经存在
+2026-03-18 18:57:31,362 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/维护保养.txt内容已经存在
+2026-03-18 18:57:34,164 - agent - INFO - vector_store.py : 79 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫地机器人100问.pdf内容加载成功
+2026-03-18 18:59:34,807 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/选购指南.txt内容已经存在
+2026-03-18 18:59:34,807 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫地机器人100问2.txt内容已经存在
+2026-03-18 18:59:34,808 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/故障排除.txt内容已经存在
+2026-03-18 18:59:34,808 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫拖一体机器人100问.txt内容已经存在
+2026-03-18 18:59:34,809 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/维护保养.txt内容已经存在
+2026-03-18 18:59:34,810 - agent - INFO - vector_store.py : 63 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫地机器人100问.pdf内容已经存在
+2026-03-18 19:00:16,493 - agent - INFO - vector_store.py : 79 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/选购指南.txt内容加载成功
+2026-03-18 19:00:22,259 - agent - INFO - vector_store.py : 79 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫地机器人100问2.txt内容加载成功
+2026-03-18 19:00:30,273 - agent - INFO - vector_store.py : 79 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/故障排除.txt内容加载成功
+2026-03-18 19:00:35,963 - agent - INFO - vector_store.py : 79 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫拖一体机器人100问.txt内容加载成功
+2026-03-18 19:00:40,456 - agent - INFO - vector_store.py : 79 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/维护保养.txt内容加载成功
+2026-03-18 19:00:43,590 - agent - INFO - vector_store.py : 79 - [加载知识库]/Users/baiyanghw/PycharmProjects/Agent_project/data/扫地机器人100问.pdf内容加载成功
